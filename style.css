@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+    background: url(./img/computer2.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.form-body {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 1px rgb(250, 214, 10);
+    margin: 10px;
+}
+
+.form-body img {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5ren;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 25px;
+}
+
+.form-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color:white;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-body input[type="password"]{
+    margin-top: 20px;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.form-body input:hover {
+    transition: 0.5s;
+    border: 1px solid rgb(178, 151, 32);
+    color: rgb(211, 190, 0);
+}
+
+.form-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(250, 214, 10);
+    color:rgba(15, 9, 4, 0.938);
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgb(182, 35, 9)
+    transition: all 0.5s ease;
+}
+
+.form-body button:hover {
+    color:rgb(182, 35, 9);
+    border:rgb(211, 190, 0);
+    background: linear-gradient(#dacc15, #d37e10);
+}
+
+
